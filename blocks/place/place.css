@@ -1,0 +1,6 @@
+.place {
+    max-width: 984px;
+    max-height: 660px;
+    display: flex;
+    position: relative;
+}
