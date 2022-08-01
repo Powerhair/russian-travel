@@ -6,4 +6,7 @@
     margin: 0;
     grid-column: 1;
     grid-row: 1/2;
+    max-width: 440px;
+    max-height: 152px;
+    align-self: end;
   }

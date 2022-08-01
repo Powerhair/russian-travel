@@ -1,3 +1,6 @@
-.place__website__url-heading.css {
+.place__website__url-heading {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding-bottom: 12px;
     
 }

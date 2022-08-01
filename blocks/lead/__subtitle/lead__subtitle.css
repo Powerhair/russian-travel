@@ -4,8 +4,32 @@ font-style: normal;
 font-weight: 400;
 font-size: 30px;
 line-height: 36px;
-width: 640px;
-height: 72px;
+max-width: 640px;
+max-height: 72px;
 margin: 32px 320px 0 320px;
 text-align: center;
 }
+
+@media screen and (max-width:1024px) {
+    .lead__subtitle {
+        margin: 32px 192px 0 192px;
+        max-width: 640px;
+        max-height: 72px;
+    }
+}
+@media screen and (max-width:768px) {
+    .lead__subtitle {
+        margin: 64px 192px 0 64px;
+        max-width: 640px;
+        max-height: 72px;
+    }
+}
+ @media screen and (max-width:320px) {
+        .lead__subtitle {
+            max-width: 288px;
+            max-height: 40px;
+            font-size: 16px;
+            line-height: 20px;
+            margin: 16px 16px 0 16px;
+        }
+    }

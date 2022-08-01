@@ -1,0 +1,10 @@
+.header__lang-link {
+    max-width: 30px;
+    max-height: 28px;
+    color: white;
+    margin: 0;
+}
+
+.header__lang-link:last-child {
+    text-decoration: none;
+}
