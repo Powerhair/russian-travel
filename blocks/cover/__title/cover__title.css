@@ -1,6 +1,6 @@
 .cover__title {
     text-align: center;
-    align-items: center;
+    align-self: center;
     position: absolute;
     font-style: normal;
     font-weight: 900;
@@ -8,6 +8,10 @@
     line-height: 76px;
     max-width: 560px;
     max-height: 152px;
-   
+    margin: 245px 312px 32px 312px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
    
 }

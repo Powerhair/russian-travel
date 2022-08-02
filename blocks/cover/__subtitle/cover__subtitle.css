@@ -4,8 +4,9 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    z-index: 2;
     position: absolute;
     max-width: 360px;
     max-height: 66px;
+    margin: 429px 412px 245px 412px;
+    position: 0;
 }
