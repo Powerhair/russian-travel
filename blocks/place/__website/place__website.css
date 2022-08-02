@@ -5,3 +5,14 @@
     grid-column: 2;
     align-self: end;
 }
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        grid-column: 1;
+        grid-row: 1/2;
+        width: 288px;
+        height: 46px;
+        padding: 32px 16px;
+        align-self: end;
+    }
+}

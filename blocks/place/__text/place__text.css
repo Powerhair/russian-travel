@@ -2,3 +2,20 @@
     grid-column: 2;
     grid-row: 2/3;
 }
+
+/* @media screen and (max-width: 1024px) {
+    .place__text {
+        width: 456px;
+        height: 433px;
+    }
+} */
+
+@media screen and (max-width: 320px) {
+    .place__text {
+        grid-column: 1;
+        /* width: 288px;
+        height: 46px; */
+        grid-row: 3;
+        margin: 32px 16px 0 16px;
+    }
+}
