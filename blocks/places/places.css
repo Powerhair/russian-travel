@@ -1,11 +1,12 @@
 .places {
     max-width: 984px;
     margin: 92px 148px;
-    display: grid;
-    grid-template-columns: 1;
-    gap: 80px;
     list-style-type: none;
     padding: 0;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    height: 3392px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -29,5 +30,6 @@
         width: 320px;
         height: 5177px;
         margin: 64px 0;
+        gap: 50px;
     }
 }
