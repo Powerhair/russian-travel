@@ -19,4 +19,5 @@
 
 .place__website {
     margin: 30px 28px 48px 0;
+    align-self: end;
 }

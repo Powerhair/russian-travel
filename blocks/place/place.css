@@ -37,3 +37,10 @@
         flex-wrap: wrap;
         box-sizing: border-box;
     }
+
+    @media screen and (max-width: 320px) {
+        .place {
+            height: 581px;
+    
+        }
+    }

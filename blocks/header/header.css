@@ -7,3 +7,10 @@
     align-items: end;
     padding-top: 28px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin: 28px 24px 0 24px;
+    }
+}

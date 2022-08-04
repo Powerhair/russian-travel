@@ -35,5 +35,20 @@
 .place__image {
     max-width: 460px;
     max-height: 460px;
-    margin: 0 40px 0 0;
+    margin: 0 48px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__image {
+        width: 440px;
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__image {
+        height: 581px;
+        width: 320px;
+        height: 320px;
+    }
 }
