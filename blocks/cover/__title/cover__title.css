@@ -8,10 +8,35 @@
     line-height: 76px;
     max-width: 560px;
     max-height: 152px;
-    margin: 245px 312px 32px 312px;
+    margin: 245px 312px 32px auto;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-   
+   }
+
+   @media screen and (max-width: 1024px) {
+    .cover__title {
+        width: 560px;
+        height: 152px;
+        margin: 195px auto 32px auto;
+    }
+}
+
+    @media screen and (max-width: 768px) {
+    .cover__title {
+        width: 560px;
+        height: 152px;
+        margin: 115px auto 32px auto;
+    }
+}
+
+   @media screen and (max-width: 320px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        width: 288px;
+        height: 70px;
+        margin: 33px auto 16px auto;
+    }
 }
