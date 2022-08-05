@@ -4,7 +4,7 @@
     color: #FFFFFF;
     font-family: 'Inter';
     width: 1280px;
-    height: 6875px;
+    max-height: 6875px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 768px) {
     .page {
-        width: 768px;;
+        width: 768px;
         height: 6855px;
     }
 }

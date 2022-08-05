@@ -17,5 +17,6 @@
         width: 186px;
         height: 310px;
         flex-direction: column;
+        justify-content: flex-start;
     }
 }

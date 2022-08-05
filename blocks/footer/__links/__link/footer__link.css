@@ -5,5 +5,9 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
+    transition: opacity 0.3s ease;
 }   
 
+.footer__link:hover {
+    opacity: 80%;
+}
