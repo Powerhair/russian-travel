@@ -1,13 +1,11 @@
 .header__lang-link {
-    max-width: 30px;
-    max-height: 28px;
-    color: white;
-    margin: 0;
+     color: white;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    transition: opacity 0.3s ease;
+    transition:  0.3s ease;
+    text-decoration: underline;
 }
 
 .header__lang-link:hover {
