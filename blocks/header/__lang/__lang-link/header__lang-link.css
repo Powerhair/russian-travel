@@ -1,20 +1,16 @@
 .header__lang-link {
-     color: white;
+    color: white;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     transition:  0.3s ease;
-    text-decoration: underline;
+    text-decoration: none;
+    padding-left: 18px;
 }
 
 .header__lang-link:hover {
-        opacity: 80%;
-}
-
-.header__lang-link:last-child {
-    text-decoration: none;
-    padding-left: 18px;
+    opacity: 80%;
 }
 
 @media screen and (max-width: 320px) {
