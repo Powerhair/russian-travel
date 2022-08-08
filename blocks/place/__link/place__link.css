@@ -9,6 +9,6 @@
     transition: 0.3s ease;
 }
 
-.place__website__link:hover {
+.place__link:hover {
     opacity: 80%;
 }
